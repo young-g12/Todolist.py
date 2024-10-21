@@ -5,7 +5,7 @@ while True:
     display_options = ["add task", "remove task", "view task", "exit"]
     print(display_options)
     choose_task = input("Which choice would you like to make?: ")
-    if choose_task == display_options[0].lower():
+    if choose_task == "add task":
         print("add task")
         input_task = input("enter task: ")
         task_list.append(input_task)
